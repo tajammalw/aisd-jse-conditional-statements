@@ -34,6 +34,8 @@ if (weather === 'rainy') {
 }
 ```
 
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+
 **Explanation:**
 
 - The `if` statement checks whether the value of the variable `weather` is equal to `'rainy'`.
@@ -58,6 +60,8 @@ if (weather === 'rainy') {
 }
 ```
 
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+
 **Explanation:**
 
 - The `else` statement runs a block of code if the `if` condition is false.
@@ -71,9 +75,9 @@ When using multiple `if` statements, JavaScript evaluates each `if` condition fr
 - [ ] In your `index.js` file, update your code to expand your example with multiple `if` statements:
 
 ```js
+// Using multiple `if` statements to handle different scenarios
 weather = 'sunny';
 
-// Using multiple `if` statements to handle different scenarios
 if (weather === 'sunny') {
   console.log("Wear sunglasses!"); // Expected output: "Wear sunglasses!"
 }
@@ -86,6 +90,9 @@ if (weather === 'snowy') {
   console.log("Wear a coat!"); // Expected output: (This will not print because the condition is false)
 }
 ```
+
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+
 **Explanation:**
 
 - The value of the `weather` variable to is set to`"sunny"`.
@@ -134,6 +141,8 @@ console.log(personAge >= requiredAge); // true (20 is greater than or equal to 1
 console.log(personAge <= requiredAge); // false (20 is not less than or equal to 18)
 ```
 
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+
 **Explanation:**
 
 - `==` compares only the values, so `age == minDrivingAge` is `true` even though one is a number and the other is a string.
@@ -153,7 +162,7 @@ In JavaScript, certain values are treated as `true` or `false` when evaluated in
 // Truthy and Falsy Values Examples
 
 age = 18;
-let minDrivingAge = '18';
+minDrivingAge = '18';
 
 // Comparison Operator with strict equality
 if (age === minDrivingAge) {
@@ -189,6 +198,7 @@ if (userInput) {
   console.log("User input is falsy"); // Expected output: (This will not print because 'Hello' is truthy)
 }
 ```
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
 
 **Explanation:**
 - The `if (age === minDrivingAge)` example shows that when comparing two different types (`number` vs. `string`), the strict equality operator (`===`) evaluates as `false`.
@@ -234,6 +244,8 @@ if (!isWeekend) {
 }
 ```
 
+- [ ] See your code in action: Run the JavaScript file in your terminal by entering the command `node index.js` and pressing Enter.
+
 **Explanation:**
 
 - AND `(&&)` Operator: Combines two conditions. In `age == minDrivingAge && hasLicense`, both conditions need to be true for the code inside the `if` block to execute. Since `hasLicense` is `false`, the `else` block runs instead.
@@ -260,9 +272,9 @@ In this project, you learned how to use JavaScript conditional statements, compa
 
 💾 **Not something to copy and paste** 💾
 
-**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-wde-08-bootstrap-grid/tree/solution) (link not shown).
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-conditional-statements/tree/solution) (link not shown).
 
 
 ---
 
-© All rights reserved to ThriveDX -->
+© All rights reserved to ThriveDX
