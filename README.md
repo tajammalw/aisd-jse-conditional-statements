@@ -10,7 +10,7 @@ In this project, you'll learn to use JavaScript's conditional statements to exec
 ## Expected Project Structure 🏗️
 
 ```
-JavaScriptBasics/
+ConditionalStatementsBinary/
 └── index.js
 ```
 
@@ -18,8 +18,8 @@ JavaScriptBasics/
 
 ## 1. **Create the Project Folder and File**
 
-- [ ] Create a folder named `JavaScriptBasics` to store your project files.
-- [ ] Inside the `JavaScriptBasics` folder, create a file named `index.js`. This file will contain all your JavaScript code.
+- [ ] Create a folder named `ConditionalStatementsBinary` to store your project files.
+- [ ] Inside the `ConditionalStatementsBinary` folder, create a file named `index.js`. This file will contain all your JavaScript code.
 
 ## 2. **Create a Conditional Statement using `if`**
 
