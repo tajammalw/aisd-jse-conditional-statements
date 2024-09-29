@@ -5,7 +5,7 @@
 
 ## Description 📄
 
-In this project, you'll learn to use JavaScript's conditional statements to execute different parts of your code based on specific conditions. You'll start by understanding what conditional statements are, using the `if` statement to make decisions, and then expanding with the `else` statement for alternative outcomes. You'll also explore comparison operators, `truthy` and `falsy` values, data type checking, and logical operators (`AND`, `OR`, `NOT`).
+In this lab, you'll learn to use JavaScript's conditional statements to execute different parts of your code based on specific conditions. You'll start by understanding what conditional statements are, using the `if` statement to make decisions, and then expanding with the `else` statement for alternative outcomes. You'll also explore comparison operators, `truthy` and `falsy` values, data type checking, and logical operators (`AND`, `OR`, `NOT`).
 
 ## Expected Project Structure 🏗️
 
